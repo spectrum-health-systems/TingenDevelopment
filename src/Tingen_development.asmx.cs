@@ -4,7 +4,7 @@
 // Documentation: https://github.com/spectrum-health-systems/Tingen-Documentation
 // Copyright (c) A Pretty Cool Program. All rights reserved.
 // Licensed under the Apache 2.0 license.
-// ================================================================ 250107 =====
+// ================================================================ 250114 =====
 
 // u241023.1223_code
 // u241212_documentation
@@ -48,8 +48,8 @@ namespace Tingen_development
         public OptionObject2015 RunScript(OptionObject2015 sentOptionObject, string sentScriptParameter)
         {
             /* Trace Logs can't go here because the logging infrastructure hasn't been initialized yet, so if you
-             * need to create a log file here, use a Primeval Log.
-             */
+            * need to create a log file here, use a Primeval Log.
+            */
 
             TingenSession tnSession = TingenSession.Build(sentOptionObject, sentScriptParameter, TingenVersionNumber);
 
@@ -66,5 +66,7 @@ namespace Tingen_development
     }
 }
 
-/* DEVELOPMENT NOTES
+/*
+[DN--] 250114
+Move all comments to the external documentation file.
  */
